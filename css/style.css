@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0; 
 }
+body{
+  background-color: black;
+}
+
 
 .navigation {
   margin-top: 25px;
@@ -10,7 +14,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+  background-image: url("../img/blog.jpg");
+} 
+
 
 .nav-left {
   display: flex;
@@ -38,7 +44,7 @@
 
 .nav-left ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .nav-left ul li a:hover {
@@ -52,17 +58,19 @@
   margin-top: 32px;
   padding: 9px;
   position: relative;
+  background-image: url("../img/blog.jpg");
 }
 
-.content::after {
+/* .content::after {
   content: "";
-  background-image: url("../img/11.svg");
+  background-image: url("../img/blog.jpg");
   position: absolute;
   width: 100%;
   height: inherit;
-  opacity: 0.15;
+  opacity: 0.50;
   border-radius: 12px;
-}
+  
+} */
 
 .content-left {
   font-family: var(--font1);
@@ -80,17 +88,23 @@
 }
 
 .content-right img {
-  height: 355px;
-  border: 2px solid black;
-  border-radius: 200px;
+  height: 386px;
+  border: 1px solid black;
+  border-radius: 17px;
 }
 
 .home-articles {
   padding: 18px;
-  background-color: rgb(248, 239, 239, 0.5);
+  background-image: url("../img/blog.jpg");
   margin-top: 23px;
   position: relative;
 }
+ h3{
+  color: white;
+}
+div{
+  color: aliceblue;
+} 
 
 .year-box {
   position: absolute;  
@@ -121,19 +135,20 @@
 
 .home-article-content a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 /* .home-articles{} */
 .footer {
   height: 50px;
   background-color: var(--main-bg-color);
+  background-image: url("../img/blog.jpg");
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: rgb(189, 24, 24);
   flex-direction: column;
 }
 
 .footer a {
-  color: white;
+  color: rgb(197, 13, 13);
 }
