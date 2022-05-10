@@ -58,7 +58,7 @@ body{
   margin-top: 32px;
   padding: 9px;
   position: relative;
-  background-image: url("../img/blog.jpg");
+  background-image: url("../img/a.jpg");
 }
 
 /* .content::after {
@@ -95,15 +95,15 @@ body{
 
 .home-articles {
   padding: 18px;
-  background-image: url("../img/blog.jpg");
+  background-image: url("../img/2.jpg");
   margin-top: 23px;
   position: relative;
 }
  h3{
-  color: white;
+  color: rgb(12, 12, 12);
 }
 div{
-  color: aliceblue;
+  color: rgb(36, 36, 36);
 } 
 
 .year-box {
